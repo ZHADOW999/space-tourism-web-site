@@ -1898,7 +1898,7 @@ ul a{
 
 
 
-@media(max-width:600px){
+@media(max-width:600px) {
     .home-img{
         min-height: 140vh;
     }
@@ -2216,6 +2216,10 @@ display: block;
     
    }
 
+   ul a:hover{
+    text-decoration: none;
+   }
+
    .line2{
     position: relative;
     width: 90%;
@@ -2253,14 +2257,55 @@ display: block;
 
    /*crew page*/
 
-   .crew-img{
+   /* .crew-img{
     width: 230px;
     height: 340px;
     top:16.2%;
    left: 0;
    right: 0;
    margin: 0 auto;
+   } */
+
+   .crew-img{
+    width: 270px;
+    height: 340px;
+    position: relative;
+    left: 0;
+   right: 0%;
+   margin: 0 auto;
    }
+
+   .crew-img-div{
+    width: 100%;
+   
+    top:5%;
+   /* left: 0;
+   right: 00%;
+   margin: 0 auto; */
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+
+   /* .line3{
+    display: block;
+    width: 380px;
+    height: 1px;
+    top:49.7%;
+    left:5%;
+    position: absolute;
+    background:  rgba(225, 225, 225, 0.139);
+} */
+.line3{
+    display: block;
+    width: 90%;
+    height: 1px;
+    bottom:0 ;
+    position: absolute;
+    background:  rgba(225, 225, 225, 0.139);
+}
+
    
    #mark{
     left: 0;
@@ -2269,14 +2314,14 @@ display: block;
    }
 
     #victor{
-        width: 270px;
+        width: 300px;
         left: 0;
    right: 0;
    margin: 0 auto;
     }
 
     #ana{
-        width: 250px;
+        width: 300px;
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -2293,7 +2338,10 @@ display: block;
 
    .c{
     top: 5%;
-    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0%;
     right: 0;
     margin: 0 auto;
    }
@@ -2335,16 +2383,7 @@ display: block;
         position: relative;
     }
 
-    .line3{
-        display: block;
-        width: 380px;
-        height: 1px;
-        top:49.7%;
-        left:5%;
-        position: absolute;
-        background:  rgba(225, 225, 225, 0.139);
-    }
-
+   
     /*tech page*/
 
     .tech-img{
@@ -2408,8 +2447,10 @@ display: block;
 
 @media(max-width:415px){
     .c{
-        top: 10%;
-        left: 20%;
+        top: 5%;
+        left:0;
+        right: 0;
+        margin: 0 auto;
        }
   /* .home-text{
     left: 14%;
@@ -2439,9 +2480,8 @@ display: block;
     left: 24%;
   } */
 
-  .line3{
-    left: 3%;
-    top: 50.83%;
+  .crew-img-div{
+    top: 15%;
   }
  
 
@@ -2450,9 +2490,7 @@ display: block;
 
 
 @media(max-width:412px){
-   .line3{
-    top: 50%;
-   }
+   
 
    /* .crew-des2{
     margin-left: 35px;
@@ -2523,8 +2561,8 @@ display: block;
   
  
 
-  .crew-img{
-    top: 18.7%;
+  .crew-img-div{
+    top: 18%;
     
   }
 
@@ -2540,10 +2578,7 @@ display: block;
   }
 
  
-  .line3{
-    top: 55%;
-    
-  }
+ 
 
   /*tech page*/
 
@@ -2564,10 +2599,7 @@ display: block;
         margin: 0 auto;
     }
 
-    .line3{
-        top: 55.4%;
-        width: 365px;
-    }
+   
 
     .moo-des{
         left: 0;
@@ -2696,16 +2728,18 @@ display: block;
     }
 
     .line3{
-        width: 350px;
+        width: 90%;
     }
 
     #victor{
+        width: 250px;
         left: 0;
         right: 0;
         margin: 0 auto;
     }
 
     #ana{
+        width: 250px;
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -2740,7 +2774,7 @@ display: block;
         min-height: 130vh;
     }
 
-    .crew-img{
+    .crew-img-div{
         top:22.2%;
     }
 }
@@ -2868,6 +2902,9 @@ display: block;
         height: 260px;
 
     }
+    .crew-img-div{
+        top: 15%;
+    }
     .slider-but{
         width: 13px;
         height: 13px;
@@ -2931,7 +2968,7 @@ display: block;
 
     #ana{
     
-        width: 230px;
+        width: 200px;
     }
 
     /*tech page*/

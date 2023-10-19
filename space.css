@@ -87,8 +87,8 @@ font-size: 10px;
 .nav{
     background:  rgba(255, 255, 255, 0.066);
     color: rgb(255, 255, 255);
-    height: 80px;
-    width: 550px;
+    height: 110px;
+    width: 700px;
     display: flex;
     /* align-items: center;
     justify-content: center; */
@@ -98,25 +98,25 @@ font-size: 10px;
     right: 0;
     top: 5%;
     border: none;
-    padding-left: 70px;
+    padding-left: 100px;
     z-index: 10;
 }
 
 .logo{
     position: absolute;
     left: 5%;
-    top: 5%;
+    top: 7%;
 }
 .line{
     height: 1px;
-    width: 105%;
+    width: 65%;
     z-index: 100;
     background:  rgb(99, 99, 99);
    
     /* border: 1px solid ; */
     position: absolute;
     bottom: 50%;
-    left: -100%;
+    left: -60%;
     border: none;
     
 }
@@ -135,7 +135,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 0.3rem;
-
+font-size: 20px;
 
 }
 
@@ -194,7 +194,7 @@ section{
 .home-text{
     position: absolute;
     color: white;
-    top: 35%;
+    top: 40%;
     left: 10%;
    
 }
@@ -257,7 +257,7 @@ section{
 
 .p3{
     position: absolute;
-    top: 40%;
+    top: 45%;
     color: rgb(0, 0, 0);
     left: 70%;font-size: 30px;
     border: 1px solid white;
@@ -1034,6 +1034,7 @@ color: black;}
    
     .nav{
         height: 70px;
+        width: 550px;
     }
     .line{
         position: absolute;
@@ -1044,6 +1045,7 @@ color: black;}
     .p3{
         width: 250px;
         height: 250px;
+        font-size: 35px;
     }
 
     .moon-img{

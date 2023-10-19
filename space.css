@@ -2082,6 +2082,11 @@ ul a{
        transition: all 0.3s ease;
     }
 
+    .nav a:hover::after{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
    
 
    
@@ -2301,7 +2306,7 @@ display: block;
     display: block;
     width: 90%;
     height: 1px;
-    bottom:0 ;
+    bottom:-0.4%;
     position: absolute;
     background:  rgba(225, 225, 225, 0.139);
 }
@@ -2351,7 +2356,9 @@ display: block;
         margin: 0 auto;
         top: 57%;
         width: 100%;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .crew-title,
@@ -2409,6 +2416,7 @@ display: block;
         justify-content: center;
         align-items: center;
         top: 45%;
+        
     }
 
     .but1, .but2, .but3 {

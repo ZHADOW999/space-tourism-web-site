@@ -90,8 +90,6 @@ font-size: 10px;
     height: 110px;
     width: 700px;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     backdrop-filter: blur(20px);
     margin-right: 0px;
     position: absolute;
@@ -113,7 +111,6 @@ font-size: 10px;
     z-index: 100;
     background:  rgb(99, 99, 99);
    
-    /* border: 1px solid ; */
     position: absolute;
     bottom: 50%;
     left: -60%;
@@ -183,12 +180,7 @@ section{
     color: white;
     transition: all .3s ease 0s;
 }
- /* .nav a.active{
-    border-bottom: 2px solid rgb(255, 255, 255);
-    width:5%;
-   
-    
-} */
+ 
 
 
 
@@ -322,9 +314,7 @@ section{
     justify-content: center;
     align-items: center;
 }
-/* .tab-content{
-    width: 80%;
-} */
+
 .tab-content .k{
     display: none;
 }
@@ -410,15 +400,7 @@ transition: all 0.3s ease;
 cursor: pointer;
 
 }
-/* ul .lab :hover{
-    border-bottom: 2px solid rgba(255, 255, 255, 0.338);
-    height: 14px;
-    width: 45%;
-    border-bottom-width: 2px ;
-   
-    
-    
-} */
+
 
 ul a:hover{
     text-decoration:2px underline rgba(255, 255, 255, 0.338);
@@ -428,7 +410,6 @@ ul a:hover{
  
 }
 ul{display: flex;
-/* float: left; */
 padding:0;
 position: relative;
 
@@ -476,7 +457,6 @@ ul a{
     line-height: 70px;
     animation:opacity ;
     animation-duration: 700ms;
-    /* animation-play-state: running; */
     animation-timing-function: linear;
     padding-top: 30px;
 }
@@ -495,7 +475,6 @@ font-size: 18px;
 line-height: 25px;
 animation:opacity ;
 animation-duration: 800ms;
-/* animation-play-state: running; */
 animation-timing-function: linear;
 
 }
@@ -518,54 +497,7 @@ animation-timing-function: linear;
 
 }
 
-/* .dis {
-    display: flex;
-    gap: 7rem;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 5px;
-    font-family: barlow2;
-    font-size: 14px;
-    color: rgba(192,197,230,255);
-    line-height: 1px;
-    font-weight: 100;
-    margin-top: 60px;
-  
-    animation: opacity3 ;
-animation-duration: 1.2s;
-animation-play-state: running;
-animation-timing-function: linear;
 
-}
-
-@keyframes opacity3{
-    0%{
-        opacity: 0;
-    }
-}
-
-.dis5 {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 5px;
-    font-family: bellefair;
-    font-size: 28px;
-    color: white;
-    bottom: 0%;
-    line-height: 0px;
-    font-weight: 100;
-    animation: opacity4 ;
-    animation-duration: 1.5s;
-    animation-play-state: running;
-    animation-timing-function: linear;
-}
-@keyframes opacity4{
-    0%{
-        opacity: 0;
-    }
-} */
 .dis {
    
    
@@ -576,12 +508,10 @@ animation-timing-function: linear;
     color: rgba(192,197,230,255);
     line-height: 1px;
     font-weight: 100;
-    /* margin-top: 60px;
-   */
     animation: opacity3 ;
-animation-duration: 1.2s;
-animation-play-state: running;
-animation-timing-function: linear;
+    animation-duration: 1.2s;
+    animation-play-state: running;
+    animation-timing-function: linear;
 
 }
 
@@ -745,50 +675,36 @@ section .crt{
     display: none;
 }
 
-#crew-1:checked ~ section .master
-
-{ 
-
-    display: contents;}
-
-    #crew-2:checked ~ section .ma2{
-        display: contents;
-        /* position: absolute;
-        top: 20%;
-        left: 10%; */
-    }
-
-    #crew-3:checked ~ section .ma3
-
-{ 
-
+#crew-1:checked ~ section .master{ 
     display: contents;
-    /* position: absolute;
-    top: 20%;
-    left: 10%; */
+}
+
+#crew-2:checked ~ section .ma2{
+    display: contents;
+        
+}
+
+#crew-3:checked ~ section .ma3
+{ 
+   display: contents;  
 }
  
     
-    #crew-4:checked ~ section .ma4
-
-{ 
+#crew-4:checked ~ section .ma4
+{
 
     display: contents;
-    /* position: absolute;
-    top: 20%;
-    left: 10%; */
+   
 }
 
     
 .slider{
     position: absolute;
     display: flex;
-    /* transform: translateY(90px); */
+   
      bottom: 10%;
     left: 8.8%;
-    /* top: 100%; */
 
-    
     
 }
 
@@ -1447,7 +1363,8 @@ color: black;}
 
     .home-img{
         background-image: url(./assets/home/background-home-tablet.jpg);
-        min-height: 100vh;
+        /* min-height: 100vh; */
+
     }
     
     .line{
@@ -1480,18 +1397,13 @@ color: black;}
         left: 0;
         right: 0;
         margin: 0 auto;
-        /* display: grid;
-        place-items: center; */
         text-align: center; 
         animation: none;
         width: 50%;
         
         
       }
-     /* div{
-        width: 50%;
-        height: 100px;
-     } */
+     
       .p1{
         font-size: 20px;
         animation: none;
@@ -1530,9 +1442,6 @@ color: black;}
         position: absolute;
         width: 300px;
         height: 300px;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         display: grid;
         place-items: center;
       }
@@ -1546,7 +1455,7 @@ color: black;}
       /*des page*/
 
     .home-img2{background-image: url(./assets/destination/background-destination-tablet.jpg);
-        min-height: 1400px;
+        min-height: 1300px;
     }
 
     .tab-content{
@@ -1557,10 +1466,8 @@ color: black;}
 .m{
 
    position: absolute;
-   
    padding-bottom: 100px;
    
-   /* right: inherit; */
   
 }
 
@@ -1580,15 +1487,15 @@ ul a{
     margin: 20px;
 }
 
-      .moon-img{
-        bottom:100%;
-        width: 370px;
-        height: 370px;
-        right: 0%;
-        left: 0;
-        margin: 0 auto;
+.moon-img{
+    bottom:100%;
+    width: 370px;
+    height: 370px;
+    right: 0%;
+    left: 0;
+    margin: 0 auto;
        
-      }
+}
 
      
 
@@ -1684,26 +1591,9 @@ ul a{
         margin: 0 auto;
       }
 
-      /* .dis{
-        padding-bottom: 50px;
-        padding-top: 30px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .dis5{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5rem;
-      } */
 
       #dis{
-        /* left: 0;
-        right: 0;
-        margin: 0 auto; */
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1716,7 +1606,7 @@ ul a{
 
       .home-img3{
         background-image: url(./assets/crew/background-crew-tablet.jpg);
-        min-height: 120vh;
+        /* min-height: 120vh; */
       }
 
       .c {
@@ -1802,7 +1692,7 @@ ul a{
 
       .home-img4{
         background-image: url(./assets/technology/background-technology-tablet.jpg);
-        min-height: 110vh;
+        /* min-height: 110vh; */
       }
 
       .t{
@@ -1823,8 +1713,7 @@ ul a{
         left: 0%;
         right: 0;
         margin: 0 auto;
-        /* display: grid;
-        place-items: center; */
+       
       }
 
       .h{font-size: 100;
@@ -1915,9 +1804,9 @@ ul a{
 
 
 @media(max-width:600px) {
-    .home-img{
+    /* .home-img{
         min-height: 140vh;
-    }
+    } */
     .nav{
         width: 
         350px;
@@ -2027,25 +1916,25 @@ ul a{
   
    .home-img{
     background-image: url(./assets/home/background-home-mobile.jpg);
-    min-height: 100vh;
-    width: 100%;
-
+    /* height: 200vh;
+    width: 100%; */
+    overflow: visible;
    }
 
    .home-img2{
     background-image: url(./assets/destination/background-destination-mobile.jpg);
     width: 100%;
-   min-height:130vh ;
+   /* min-height:130vh ; */
    }
 
    .home-img3{background-image: url(./assets/crew/background-crew-mobile.jpg);
-    min-height: 110vh;
+    /* min-height: 110vh; */
     width: 100%;
 }
 
    .home-img4{
     background-image: url(./assets/technology/background-technology-mobile.jpg);
-    min-height: 110vh;
+    /* min-height: 110vh; */
     width: 100%;
    }
 
@@ -2057,11 +1946,9 @@ ul a{
         right: -100%;
         background:  rgba(255, 255, 255, 0.066);
         height: 100%;
-        /* width: 75vw; */
-        
         transition: all 0.6s ease-in-out;
         text-align: left;
-        /* overflow: hidden; */
+        overflow: hidden;
        
         
         padding-left: 0px;
@@ -2179,9 +2066,7 @@ width: 75vw;
     }
 
     /*des page*/
-    body{
-        overflow-x: hidden;
-    }
+
 
 
     .moonbar{
@@ -2288,14 +2173,7 @@ width: 75vw;
 
    /*crew page*/
 
-   /* .crew-img{
-    width: 230px;
-    height: 340px;
-    top:16.2%;
-   left: 0;
-   right: 0;
-   margin: 0 auto;
-   } */
+   
 
    .crew-img{
     width: 270px;
@@ -2306,28 +2184,17 @@ width: 75vw;
    margin: 0 auto;
    }
 
-   .crew-img-div{
+.crew-img-div{
     width: 100%;
-   
     top:5%;
-   /* left: 0;
-   right: 00%;
-   margin: 0 auto; */
+   
    position: absolute;
    display: flex;
    align-items: center;
    justify-content: center;
    }
 
-   /* .line3{
-    display: block;
-    width: 380px;
-    height: 1px;
-    top:49.7%;
-    left:5%;
-    position: absolute;
-    background:  rgba(225, 225, 225, 0.139);
-} */
+   
 .line3{
     display: block;
     width: 90%;
@@ -2437,10 +2304,7 @@ width: 75vw;
     }
 
     .but{
-        /* left: 25%; */
-        /* left: 0;
-        right: 0;
-        margin: 0 auto; */
+        
         display:flex ;
         justify-content: center;
         align-items: center;
@@ -2454,7 +2318,7 @@ width: 75vw;
     }
 
     .t-text{
-        /* left: 10%; */
+        
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -2489,9 +2353,7 @@ width: 75vw;
         right: 0;
         margin: 0 auto;
        }
-  /* .home-text{
-    left: 14%;
-  }   */
+  
 
   
   .moo-des{
@@ -2529,14 +2391,6 @@ width: 75vw;
 @media(max-width:412px){
    
 
-   /* .crew-des2{
-    margin-left: 35px;
-   }
-
-   #crew-ever2{
-    left: 5%;
-   } */
-   
    .c{
     top: 5%;
    }
@@ -2603,19 +2457,11 @@ width: 75vw;
     
   }
 
-  /* .c{
-    top: 10%;
-    left: 20%;
-    font-size: 23px;
-  } */
-
-
+  
   .crew-ever{
     top: 62%;
   }
 
- 
- 
 
   /*tech page*/
 
@@ -2626,9 +2472,7 @@ width: 75vw;
 
 @media(max-width:390px){
 
-    .home-img3{
-        overflow-x: hidden;
-    }
+    
 
     .p3{
         left: 0;
@@ -2684,15 +2528,7 @@ width: 75vw;
     }
     
 
-    .home-img{
-        height: 110vh;
-    }
-    /*des page*/
-
-    .home-img2{
-        min-height: 160vh;
-        overflow-x: hidden;
-    }
+    
 
     .moon-img{
         left: -3%;
@@ -2718,11 +2554,6 @@ width: 75vw;
         width: 85%;
     }
 
-    
-
-  
-    
-   
 
   
 
@@ -2807,9 +2638,9 @@ width: 75vw;
 
   
 
-    .home-img2{
+    /* .home-img2{
         min-height: 130vh;
-    }
+    } */
 
     .crew-img-div{
         top:22.2%;
@@ -2848,9 +2679,9 @@ width: 75vw;
 
     /*des page*/
 
-    .home-img2{
+    /* .home-img2{
         min-height: 150vh;
-    }
+    } */
     
 
     .moon-img{
